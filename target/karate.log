@@ -250,3 +250,3293 @@
   }
 }
  
+21:39:33.689 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:39:34.851 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given url
+no step-definition method match found for: url
+classpath:com/file/feature/demo.feature:3
+21:39:35.426 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:39:35.761 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:39:36.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 263
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:09:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3555
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8697ed2f4ee67f3c-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:39:36.037 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:39:36.046 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:39:36.071 [main] DEBUG com.intuit.karate - response time in milliseconds: 24
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:09:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3555
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8697ed2fac9b7fe3-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:39:36.073 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:40:07.929 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:40:09.188 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given url
+no step-definition method match found for: url
+classpath:com/file/feature/demo.feature:3
+21:40:47.976 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:40:49.196 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:40:49.402 [main] DEBUG com.intuit.karate - response time in milliseconds: 201
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:10:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3629
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8697eef9eeba3983-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:40:49.439 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:6
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:6
+21:43:27.198 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:43:28.370 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given url baseurl
+js failed:
+>>>>
+01: baseurl
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+21:54:44.076 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:45.279 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:01:55.178 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:56.140 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:08:13.565 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:14.502 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:08:15.176 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:15.412 [main] DEBUG com.intuit.karate - response time in milliseconds: 230
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:38:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5275
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869817294e74802b-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:08:15.437 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:08:15.447 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:15.474 [main] DEBUG com.intuit.karate - response time in milliseconds: 26
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:38:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5275
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86981729c8157f28-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:08:15.477 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:09:02.074 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:09:02.999 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:09:03.618 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:03.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 162
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:39:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5323
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869818579db27f47-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:09:03.806 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:09:03.817 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:03.844 [main] DEBUG com.intuit.karate - response time in milliseconds: 26
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:39:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5323
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869818580d208030-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:09:03.847 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:09:03.850 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:17:10.773 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:17:11.744 [main] INFO  com.intuit.karate - Given:  null 
+22:17:11.787 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:17:12.204 [main] INFO  com.intuit.karate - Given:  null 
+22:17:12.384 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:17:12.546 [main] DEBUG com.intuit.karate - response time in milliseconds: 159
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:47:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5812
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869824465a760698-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:17:12.552 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:17:12.561 [main] INFO  com.intuit.karate - Given:  null 
+22:17:12.565 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:17:12.592 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:47:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5812
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982446b9a67f67-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:17:12.594 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:17:12.597 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:17:47.680 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': local
+22:17:48.065 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:17:48.999 [main] INFO  com.intuit.karate - Given:  local 
+22:17:49.035 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:17:49.448 [main] INFO  com.intuit.karate - Given:  local 
+22:17:49.616 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:17:49.769 [main] DEBUG com.intuit.karate - response time in milliseconds: 149
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:47:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5849
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8698252ef9223984-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:17:49.774 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:17:49.783 [main] INFO  com.intuit.karate - Given:  local 
+22:17:49.786 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:17:49.814 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:47:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5849
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8698252f4f758001-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:17:49.816 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:17:49.820 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:20:04.851 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:20:35.572 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': local
+22:20:35.909 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:20:36.868 [main] INFO  com.intuit.karate - Given:  local 
+22:20:36.908 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:20:37.329 [main] INFO  com.intuit.karate - Given:  local 
+22:20:37.507 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:20:37.680 [main] DEBUG com.intuit.karate - response time in milliseconds: 169
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:50:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6017
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869829486b647f9b-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:20:37.685 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:20:37.694 [main] INFO  com.intuit.karate - Given:  local 
+22:20:37.696 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:20:37.724 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:50:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6017
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982948ce9e800a-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:20:37.725 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:20:37.728 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:21:04.257 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:05.297 [main] INFO  com.intuit.karate - Given:  null 
+22:21:05.344 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+22:21:05.790 [main] INFO  com.intuit.karate - Given:  null 
+22:21:05.966 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:21:06.143 [main] DEBUG com.intuit.karate - response time in milliseconds: 171
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:51:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6045
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869829fa4a5e7fb6-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:21:06.148 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:21:06.156 [main] INFO  com.intuit.karate - Given:  null 
+22:21:06.158 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:21:06.187 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:51:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6046
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869829faaf877fc2-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:21:06.189 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:21:06.192 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:23:12.452 [main] INFO  com.intuit.karate - Karate version: 1.4.1
+22:23:17.824 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:18.770 [main] INFO  com.intuit.karate - Given:  null 
+22:23:18.804 [main] INFO  com.intuit.karate - [print] dawda 
+22:23:19.207 [main] INFO  com.intuit.karate - Given:  null 
+22:23:19.374 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:23:19.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 170
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6179
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982d3c0e727f0c-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:23:19.554 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:23:19.562 [main] INFO  com.intuit.karate - Given:  null 
+22:23:19.565 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:23:19.590 [main] DEBUG com.intuit.karate - response time in milliseconds: 24
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6179
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982d3c6a067f85-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:23:19.591 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:23:19.617 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:24:14.791 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:24:36.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:24:37.448 [main] INFO  com.intuit.karate - Given:  null 
+22:24:37.485 [main] INFO  com.intuit.karate - [print] dawda 
+22:24:37.918 [main] INFO  com.intuit.karate - Given:  null 
+22:24:38.091 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:24:38.267 [main] DEBUG com.intuit.karate - response time in milliseconds: 172
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:54:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6258
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982f280d270698-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:24:38.272 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:24:38.280 [main] INFO  com.intuit.karate - Given:  null 
+22:24:38.282 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:24:38.307 [main] DEBUG com.intuit.karate - response time in milliseconds: 25
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:54:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6258
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 86982f286dbf7e75-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:24:38.309 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:24:38.321 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+22:29:29.702 [main] INFO  com.intuit.karate - [print] dawda 
+22:29:30.419 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:29:30.587 [main] DEBUG com.intuit.karate - response time in milliseconds: 164
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:59:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6550
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8698364b0fa57f7d-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:29:30.594 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:29:30.607 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:29:30.636 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+1 < 200
+1 < Date: Sun, 24 Mar 2024 16:59:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711293020&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=7LKgj96BRuXis%2BVMXjVeY0uxUF8F79Qia8UA3kBLWdA%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6550
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8698364b6fbc7f88-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:29:30.638 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:29:30.653 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+20:32:01.308 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:32:02.445 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:32:02.480 [main] INFO  com.intuit.karate - [print] https://another-host.com/v1/ 
+20:32:02.944 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:32:03.176 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:32:03.396 [main] DEBUG com.intuit.karate - response time in milliseconds: 216
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:02:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6103
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fc7baf9988026-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:32:03.401 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:32:03.410 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:32:03.413 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:32:03.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 31
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:02:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6103
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fc7bb6fd77ea9-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:32:03.447 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:32:03.459 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+20:34:02.154 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:34:03.127 [main] INFO  com.intuit.karate - [print] https://another-host.com/v1/ 
+20:34:03.721 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:34:03.884 [main] DEBUG com.intuit.karate - response time in milliseconds: 160
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:04:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6224
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fcaac0bd0a8f6-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:34:03.890 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:34:03.901 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:34:03.927 [main] DEBUG com.intuit.karate - response time in milliseconds: 25
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:04:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6224
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fcaac69b57f42-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:34:03.928 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:34:03.940 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:14
+* print baseurl
+js failed:
+>>>>
+01: karate.log('[print]',baseurl)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "baseurl" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:14
+20:35:45.835 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:35:46.961 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:3
+Given print anotherUrlBase
+js failed:
+>>>>
+01: karate.log('[print]',anotherUrlBase)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "anotherUrlBase" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:3
+20:35:47.707 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:35:47.922 [main] DEBUG com.intuit.karate - response time in milliseconds: 210
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:05:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6328
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fcd364a547f8f-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:35:47.947 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:35:47.955 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:35:47.982 [main] DEBUG com.intuit.karate - response time in milliseconds: 26
+1 < 200
+1 < Date: Mon, 25 Mar 2024 15:05:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711372824&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oJ2qbYA6WfNU7yYs%2BpmbDZvTKC%2BRqrHTa5CrSvmzRf0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 6328
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 869fcd36b8f37ef2-MAA
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+20:35:47.985 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+20:35:47.986 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1 
+20:36:50.895 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:36:51.940 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1 
+20:38:01.792 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:38:02.753 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1/login 
+21:05:39.599 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': qa
+21:05:39.699 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:05:40.881 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:4
+* header Accept = 'application/json'
+>> classpath:com/file/feature/demo.feature:5
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ( var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: })
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected an operand but found var
+( var config = { 
+  ^
+Unnamed:3:2 Expected eof but found }
+  };
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+01:  var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: }
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ( var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: })
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected an operand but found var
+( var config = { 
+  ^
+Unnamed:3:2 Expected eof but found }
+  };
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:com/file/feature/demo.feature:4
+21:05:40.882 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:6
+Given print baseurl+'/login'
+>> classpath:com/file/feature/demo.feature:5
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: ( var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: })
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected an operand but found var
+( var config = { 
+  ^
+Unnamed:3:2 Expected eof but found }
+  };
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+js failed:
+>>>>
+01:  var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: }
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: ( var config = { 
+02:     baseurl: 'https://api-qa19.mirrorfly.com/api/v1'
+03:   };
+04:   
+05: function fn() {   
+06:   var env = karate.env; // get java system property 'karate.env'
+07:   karate.log('karate.env', env);
+08:   if (env == 'qa') {
+09:     // over-ride only those that need to be
+10:     config.baseurl = 'https://api-qa19.mirrorfly.com/api/v1';
+11:   } else if (env == 'dev') {
+12:     config.someUrlBase = 'https://api-dev19.mirrorfly.com/api/v1';
+13:   }else{
+14: 	  config.someUrlBase = 'https://api-qa19.mirrorfly.com/api/v1';
+15:   }
+16:   // don't waste time waiting for a connection or if servers don't respond within 5 seconds
+17:   karate.configure('connectTimeout', 5000);
+18:   karate.configure('readTimeout', 5000);
+19:   return config;
+20: })
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:2 Expected an operand but found var
+( var config = { 
+  ^
+Unnamed:3:2 Expected eof but found }
+  };
+  ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:253)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1288)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:296)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:371)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:390)
+- com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:71)
+- org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+
+classpath:com/file/feature/demo.feature:4
+classpath:com/file/feature/demo.feature:6
+21:06:16.684 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': qa
+21:06:16.766 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:06:17.829 [main] INFO  com.intuit.karate - karate.env qa 
+21:06:17.874 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1/login 
+21:06:53.025 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+21:06:53.108 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:06:54.096 [main] INFO  com.intuit.karate - karate.env dev 
+21:06:54.134 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1/login 
+21:07:39.357 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+21:07:39.444 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:07:40.440 [main] INFO  com.intuit.karate - karate.env dev 
+21:07:40.476 [main] INFO  com.intuit.karate - [print] /login 
+21:08:23.735 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+21:08:23.817 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:08:24.777 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+21:08:24.817 [main] INFO  com.intuit.karate - [print] /login 
+21:09:44.202 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+21:09:44.285 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:09:45.246 [main] INFO  com.intuit.karate - [print] https://api-qa19.mirrorfly.com/api/v1/login 
+21:58:17.851 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:58:19.280 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+21:58:19.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:28:24 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IkdLcDEwNmcwMVhOclBpTDIybzMwIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQxMDR9.h5nzzso23-AH46ZtxzJj4hPI0s3KK7CzLtph40HeLso"},"message":"Data retrieved successfully"}
+
+21:58:19.729 [main] INFO  com.intuit.karate - [print] {
+  "status": 200,
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IkdLcDEwNmcwMVhOclBpTDIybzMwIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQxMDR9.h5nzzso23-AH46ZtxzJj4hPI0s3KK7CzLtph40HeLso"
+  },
+  "message": "Data retrieved successfully"
+}
+ 
+21:59:07.199 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:59:08.409 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+21:59:08.590 [main] DEBUG com.intuit.karate - response time in milliseconds: 178
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:29:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IkcxdG9NOHRjR2pMVjlIeHJiNWgzIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQxNTJ9.Lx56lMXP3sSAg7Zn8vaCt01rv_ZoDv70tFN6bz9neJc"},"message":"Data retrieved successfully"}
+
+21:59:08.599 [main] INFO  com.intuit.karate - [print] {
+  "status": 200,
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IkcxdG9NOHRjR2pMVjlIeHJiNWgzIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQxNTJ9.Lx56lMXP3sSAg7Zn8vaCt01rv_ZoDv70tFN6bz9neJc"
+  },
+  "message": "Data retrieved successfully"
+}
+ 
+22:01:57.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:58.532 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:01:58.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 192
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:32:03 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6ImlCcnU2MUdvZTkxNTdMYzFqMk8xIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQzMjN9.SSebfAFGN7dKtXWKR1emizrlGAjRJN9f-nwpwFnquuk"},"message":"Data retrieved successfully"}
+
+22:01:58.735 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:7
+* match response.status=="200"
+syntax error, expected '==' for match
+classpath:com/file/feature/demo.feature:7
+22:04:00.262 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:01.503 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:04:01.724 [main] DEBUG com.intuit.karate - response time in milliseconds: 217
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:34:06 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6InkyOTdrVkVBUlc2UTRoUjRZMDM0IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQ0NDZ9.iUGHX32cvQEtxaPs4EIVGpdRnP9ef315tsXxn1ikRjY"},"message":"Data retrieved successfully"}
+
+22:04:01.728 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:7
+* match print response.status
+no step-definition method match found for: match print response.status
+classpath:com/file/feature/demo.feature:7
+22:05:37.963 [main] INFO  com.intuit.karate - Karate version: 1.4.1
+22:05:43.262 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:44.678 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:05:44.894 [main] DEBUG com.intuit.karate - response time in milliseconds: 212
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:35:49 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IkdzTVNqbTNLbng4eWlEYTJVaWROIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQ1NDl9.H5_gM9176ME4p_6yL-LRHfGh8jaCKLnRxOQTE6BxITE"},"message":"Data retrieved successfully"}
+
+22:05:44.904 [main] INFO  com.intuit.karate - [print] 200 
+22:06:24.353 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:25.725 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:06:25.905 [main] DEBUG com.intuit.karate - response time in milliseconds: 176
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:36:30 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjJyWjhCYXN6elFFOHZSRUdYTDNEIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQ1OTB9.4k-XIRusnqR_viKpNm47vz6xUYAN8e7V-6SaIQ02TTg"},"message":"Data retrieved successfully"}
+
+22:06:25.925 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:7
+* match response.status == "200"
+match failed: EQUALS
+  $ | data types don't match (NUMBER:STRING)
+  200
+  '200'
+
+classpath:com/file/feature/demo.feature:7
+22:07:10.586 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:11.980 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:07:12.219 [main] DEBUG com.intuit.karate - response time in milliseconds: 236
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:37:16 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjUxMlo4QldSeGU5aXlWVDlkSjU1IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODQ2MzZ9.MdlRvrUGSqvKrA4usB7hOcXmER_pXOfDwbHWMxqDmPI"},"message":"Data retrieved successfully"}
+
+22:17:28.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:17:29.554 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:17:29.804 [main] DEBUG com.intuit.karate - response time in milliseconds: 246
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:47:34 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjNwNjVVNWs0MDExODU1bzIwRDFQIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODUyNTR9.zMEB1ZSVPC5-jJy6Q47cz6h7pRUzkQN5OELfmINwryU"},"message":"Data retrieved successfully"}
+
+22:17:29.821 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:9
+* $Token = response.data.token
+no step-definition method match found for: $Token = response.data.token
+classpath:com/file/feature/demo.feature:9
+22:25:12.408 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:25:13.987 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:25:14.247 [main] DEBUG com.intuit.karate - response time in milliseconds: 256
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:55:18 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6InRMV05KU0oyY1J4MWpaa3ZnOFE0IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODU3MTh9.EJMy6ErFh5DXB7DSzM_OCL-yjiDMmxRoZu0rh2ne_0k"},"message":"Data retrieved successfully"}
+
+22:25:14.268 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6InRMV05KU0oyY1J4MWpaa3ZnOFE0IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODU3MTh9.EJMy6ErFh5DXB7DSzM_OCL-yjiDMmxRoZu0rh2ne_0k 
+22:26:10.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:26:11.767 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:26:11.951 [main] DEBUG com.intuit.karate - response time in milliseconds: 180
+1 < 200
+1 < Date: Mon, 25 Mar 2024 16:56:16 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6InZ5TDBkOEpFOVpENzFVTUoyODR1IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODU3NzZ9.NjfP5w7h7-tfLA9j98sCS7XbKgDjVZcOVuocTkyk-d4"},"message":"Data retrieved successfully"}
+
+22:26:11.972 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6InZ5TDBkOEpFOVpENzFVTUoyODR1IiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODU3NzZ9.NjfP5w7h7-tfLA9j98sCS7XbKgDjVZcOVuocTkyk-d4 
+22:26:12.001 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo.feature:12
+Given print token
+js failed:
+>>>>
+01: karate.log('[print]',token)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "token" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo.feature:12
+22:45:44.442 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:45:45.813 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:45:46.102 [main] DEBUG com.intuit.karate - response time in milliseconds: 286
+1 < 200
+1 < Date: Mon, 25 Mar 2024 17:15:50 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjA5empSOFUyNG83MDk2dURxNDhFIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODY5NTB9.R0syVT_2naJRhmWsUuQY8vw9Fvjt5vEe2GFtPQpqIv0"},"message":"Data retrieved successfully"}
+
+22:45:46.121 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjA5empSOFUyNG83MDk2dURxNDhFIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODY5NTB9.R0syVT_2naJRhmWsUuQY8vw9Fvjt5vEe2GFtPQpqIv0 
+22:45:46.539 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+22:45:46.597 [main] DEBUG com.intuit.karate - response time in milliseconds: 57
+1 < 200
+1 < Date: Mon, 25 Mar 2024 17:15:50 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6Ikd0ZTU1ZXQxN09HSTU1Qmk5M20xIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODY5NTB9.J5eym29EikLX7g4dSe4WUSKtcUADkEBdm0UZRbVthps"},"message":"Data retrieved successfully"}
+
+22:45:46.599 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6Ikd0ZTU1ZXQxN09HSTU1Qmk5M20xIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODY5NTB9.J5eym29EikLX7g4dSe4WUSKtcUADkEBdm0UZRbVthps 
+22:45:46.603 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6Ikd0ZTU1ZXQxN09HSTU1Qmk5M20xIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODY5NTB9.J5eym29EikLX7g4dSe4WUSKtcUADkEBdm0UZRbVthps 
+23:05:46.052 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:05:47.707 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+23:05:48.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 306
+1 < 200
+1 < Date: Mon, 25 Mar 2024 17:35:52 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IklFT3VuODUycWh2Yk5RNzExczQyIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODgxNTJ9.55WoJQmCA9R6nA34kRPVvOnOVklEYwutgVhKecdq41E"},"message":"Data retrieved successfully"}
+
+23:05:48.042 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IklFT3VuODUycWh2Yk5RNzExczQyIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODgxNTJ9.55WoJQmCA9R6nA34kRPVvOnOVklEYwutgVhKecdq41E 
+23:11:13.193 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:11:14.415 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api-qa19.mirrorfly.com/api/v1/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: api-qa19.mirrorfly.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"password":"welcome@123","username":"919677025865","type":""}
+
+23:11:14.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 209
+1 < 200
+1 < Date: Mon, 25 Mar 2024 17:41:18 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 243
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Content-Type-Options: nosniff
+1 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 0
+1 < Referrer-Policy: no-referrer
+{"status":200,"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjBWOGIwN08xWHE3dDFGSW1qODNtIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODg0Nzh9.LMSF3kphFWIE4HFWsvJT13T2mOQjg0VpXwqdY4xSEGM"},"message":"Data retrieved successfully"}
+
+23:11:14.646 [main] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjBWOGIwN08xWHE3dDFGSW1qODNtIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODg0Nzh9.LMSF3kphFWIE4HFWsvJT13T2mOQjg0VpXwqdY4xSEGM 
+23:13:27.457 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:13:28.571 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = read('classpath:com\file\feature\Token.json')
+js failed:
+>>>>
+01: read('classpath:com\file\feature\Token.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: comileeatureToken.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:14:41.220 [main] INFO  com.intuit.karate - Karate version: 1.4.1
+23:14:46.712 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:14:47.704 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = read('classpath:com\file\feature\Token.json')
+js failed:
+>>>>
+01: read('classpath:com\file\feature\Token.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: comileeatureToken.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:15:31.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:15:32.020 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = read('classpath:Token.json')
+js failed:
+>>>>
+01: read('classpath:Token.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: Token.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:15:45.170 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:15:46.150 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = read('Token')
+js failed:
+>>>>
+01: read('Token')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\guru\Desktop\API automation\karate_DSL\target\test-classes\com\file\feature\Token (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:76)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:18:52.229 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:18:53.237 [main] INFO  com.intuit.karate - [print]  
+23:19:33.615 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:19:34.627 [main] INFO  com.intuit.karate - [print] dawdaw 
+23:20:17.186 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:22:12.774 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:22:13.797 [main] INFO  com.intuit.karate - [print] dawdaw 
+23:23:24.697 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:23:25.682 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = call read('Token.json')
+not a callable feature or js function: [type: MAP, value: {token=dawdaw}]
+classpath:com/file/feature/demo1.feature:4
+23:24:44.133 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:24:45.152 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = call read('Token.json')
+js failed:
+>>>>
+01: read('Token.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\guru\Desktop\API automation\karate_DSL\target\test-classes\com\file\feature\Token.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:24:56.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:24:57.486 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = call read('Token.js')
+not a callable feature or js function: [type: LIST, value: [{token=dawdaw}]]
+classpath:com/file/feature/demo1.feature:4
+23:25:14.099 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:25:15.108 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:5
+* set token.token = "and"
+Invalid put operation. $ is not a map
+classpath:com/file/feature/demo1.feature:5
+23:25:39.652 [main] INFO  com.intuit.karate - Karate version: 1.4.1
+23:25:44.268 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:25:45.258 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:4
+* def token = call('Token.js')
+js failed:
+>>>>
+01: call('Token.js')
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "call" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/file/feature/demo1.feature:4
+23:29:13.985 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:29:15.179 [main] ERROR com.intuit.karate - classpath:com/file/feature/demo1.feature:6
+* reqest token
+no step-definition method match found for: reqest token
+classpath:com/file/feature/demo1.feature:6
+23:30:08.964 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:30:09.983 [main] INFO  com.intuit.karate - [print] welcome@123 
+23:30:52.776 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:30:53.796 [main] INFO  com.intuit.karate - [print] welcome@123 

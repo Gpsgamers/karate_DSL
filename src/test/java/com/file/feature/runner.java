@@ -6,11 +6,8 @@ public class runner {
 	
 	@Karate.Test
     Karate runAll1() {
-       return Karate.run("demo").relativeTo(getClass());
-    }
-	
-	@Karate.Test
-    Karate runAll2() {
+		//System.setProperty("karate.env", "dev");
        return Karate.run("demo1").relativeTo(getClass());
     }
+	
 }

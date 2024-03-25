@@ -49,13 +49,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-03-24 05:07:17 pm</div>
+    <div>2024-03-25 11:11:14 pm</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:2]"><span>[1:2]</span> <span>hello world</span></a>
+            <a href="#[1:2]"><span>[1:2]</span> <span>login</span></a>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
           <span class="feature-path">com/file/feature/demo.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">print hello world1</span>
+          <span class="feature-name">chat API</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
@@ -76,12 +76,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:2]</span>
-                <span class="scenario-name">hello world</span>
+                <span class="scenario-name">login</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>524</span>
+              <span>ms:</span>&nbsp;<span>480</span>
             </div>
           </div>
           
@@ -95,10 +95,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">3</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users?page=1&#39;</span>
+        <span>Given</span>&nbsp;<span>url baseurl+&#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">56</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -123,10 +123,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">4</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method GET</span>
+        <span>And</span>&nbsp;<span>request {&quot;password&quot;: &quot;welcome@123&quot;,&quot;username&quot;: &quot;919677025865&quot;,&quot;type&quot;: &quot;&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">404</div>
+    <div class="time-cell passed">37</div>
   </div>
 
    
@@ -135,36 +135,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">17:07:17.684 request:
-1 &gt; GET https://reqres.in/api/users?page=1
-1 &gt; Host: reqres.in
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-17:07:17.889 response time in milliseconds: 200
-1 &lt; 200
-1 &lt; Date: Sun, 24 Mar 2024 11:37:21 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1711278527&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=94YhwJrnrtmU1NFNNxWGVH4fbk1QIhe6XIl87sZgem8%3D&quot;}]}
-1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711278527&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=94YhwJrnrtmU1NFNNxWGVH4fbk1QIhe6XIl87sZgem8%3D
-1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-1 &lt; X-Powered-By: Express
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8&quot;
-1 &lt; Via: 1.1 vegur
-1 &lt; Cache-Control: max-age=14400
-1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 1714
-1 &lt; Vary: Accept-Encoding
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 86965e66b93606b8-MAA
-{&quot;page&quot;:1,&quot;per_page&quot;:6,&quot;total&quot;:12,&quot;total_pages&quot;:2,&quot;data&quot;:[{&quot;id&quot;:1,&quot;email&quot;:&quot;george.bluth@reqres.in&quot;,&quot;first_name&quot;:&quot;George&quot;,&quot;last_name&quot;:&quot;Bluth&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/1-image.jpg&quot;},{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/2-image.jpg&quot;},{&quot;id&quot;:3,&quot;email&quot;:&quot;emma.wong@reqres.in&quot;,&quot;first_name&quot;:&quot;Emma&quot;,&quot;last_name&quot;:&quot;Wong&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/3-image.jpg&quot;},{&quot;id&quot;:4,&quot;email&quot;:&quot;eve.holt@reqres.in&quot;,&quot;first_name&quot;:&quot;Eve&quot;,&quot;last_name&quot;:&quot;Holt&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/4-image.jpg&quot;},{&quot;id&quot;:5,&quot;email&quot;:&quot;charles.morris@reqres.in&quot;,&quot;first_name&quot;:&quot;Charles&quot;,&quot;last_name&quot;:&quot;Morris&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/5-image.jpg&quot;},{&quot;id&quot;:6,&quot;email&quot;:&quot;tracey.ramos@reqres.in&quot;,&quot;first_name&quot;:&quot;Tracey&quot;,&quot;last_name&quot;:&quot;Ramos&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/6-image.jpg&quot;}],&quot;support&quot;:{&quot;url&quot;:&quot;https://reqres.in/#support-heading&quot;,&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;}}
-
-</div>   
+     
 
   
 
@@ -178,6 +149,60 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   <div class="step-row">
     <div class="step-container" id="0.5">
       <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">415</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">23:11:14.415 request:
+1 &gt; POST https://api-qa19.mirrorfly.com/api/v1/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 62
+1 &gt; Host: api-qa19.mirrorfly.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;password&quot;:&quot;welcome@123&quot;,&quot;username&quot;:&quot;919677025865&quot;,&quot;type&quot;:&quot;&quot;}
+
+23:11:14.627 response time in milliseconds: 209
+1 &lt; 200
+1 &lt; Date: Mon, 25 Mar 2024 17:41:18 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 243
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 0
+1 &lt; Referrer-Policy: no-referrer
+{&quot;status&quot;:200,&quot;data&quot;:{&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjBWOGIwN08xWHE3dDFGSW1qODNtIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODg0Nzh9.LMSF3kphFWIE4HFWsvJT13T2mOQjg0VpXwqdY4xSEGM&quot;},&quot;message&quot;:&quot;Data retrieved successfully&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -204,14 +229,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref passed">6</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>print response</span>
+        <span>*</span>&nbsp;<span>match response.status == 200</span>
       </div>
     </div>
-    <div class="time-cell passed">64</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -220,61 +245,63 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.6">17:07:17.978 [print] {
-  &quot;page&quot;: 1,
-  &quot;per_page&quot;: 6,
-  &quot;total&quot;: 12,
-  &quot;total_pages&quot;: 2,
-  &quot;data&quot;: [
-    {
-      &quot;id&quot;: 1,
-      &quot;email&quot;: &quot;george.bluth@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;George&quot;,
-      &quot;last_name&quot;: &quot;Bluth&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/1-image.jpg&quot;
-    },
-    {
-      &quot;id&quot;: 2,
-      &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;Janet&quot;,
-      &quot;last_name&quot;: &quot;Weaver&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/2-image.jpg&quot;
-    },
-    {
-      &quot;id&quot;: 3,
-      &quot;email&quot;: &quot;emma.wong@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;Emma&quot;,
-      &quot;last_name&quot;: &quot;Wong&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/3-image.jpg&quot;
-    },
-    {
-      &quot;id&quot;: 4,
-      &quot;email&quot;: &quot;eve.holt@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;Eve&quot;,
-      &quot;last_name&quot;: &quot;Holt&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/4-image.jpg&quot;
-    },
-    {
-      &quot;id&quot;: 5,
-      &quot;email&quot;: &quot;charles.morris@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;Charles&quot;,
-      &quot;last_name&quot;: &quot;Morris&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/5-image.jpg&quot;
-    },
-    {
-      &quot;id&quot;: 6,
-      &quot;email&quot;: &quot;tracey.ramos@reqres.in&quot;,
-      &quot;first_name&quot;: &quot;Tracey&quot;,
-      &quot;last_name&quot;: &quot;Ramos&quot;,
-      &quot;avatar&quot;: &quot;https://reqres.in/img/faces/6-image.jpg&quot;
-    }
-  ],
-  &quot;support&quot;: {
-    &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,
-    &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;
-  }
-}
- 
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">23:11:14.647 [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZW1wRGF0YSI6IjBWOGIwN08xWHE3dDFGSW1qODNtIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE3MTEzODg0Nzh9.LMSF3kphFWIE4HFWsvJT13T2mOQjg0VpXwqdY4xSEGM 
 </div>   
 
   

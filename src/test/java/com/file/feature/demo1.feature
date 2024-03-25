@@ -1,13 +1,7 @@
 Feature: print hello world1
 
   Scenario: hello world
-    Given url 'https://reqres.in/api/users?page=1'
-    When method GET
-    And print response
-    Then status 200
+    * def token = read('Token.json')
+    * print token.password
+    * set token.password = "dddddddddddddddd"
 
-  Scenario: hello world1
-    Given url 'https://reqres.in/api/users?page=1'
-    When method GET
-    And print response
-    Then status 200

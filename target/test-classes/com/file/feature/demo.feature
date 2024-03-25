@@ -1,6 +1,11 @@
-Feature: print hello world1
-  Scenario: hello world
-    Given url 'https://reqres.in/api/users?page=1'
-    When method GET
-    Then status 200
-    * print response
+Feature: chat API
+  Scenario: login
+    Given url baseurl+'/login'
+    And request {"password": "welcome@123","username": "919677025865","type": ""}
+		When method post
+		Then status 200 
+		* match response.status == 200
+		* def token = response.data.token
+		* print token
+		
+   
